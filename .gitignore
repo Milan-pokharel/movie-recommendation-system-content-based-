@@ -1,0 +1,6 @@
+rvenv/
+__pycache__/
+*.pkl
+*.csv
+.DS_Store
+
