@@ -1,5 +1,5 @@
-1. Movie Recommendation System (Content-Based filtering)
-This is a content-based movie recommendation system built using the TMDB 5000 Movies Dataset.The goal of the project is to recommend movies similar to a selected movie based on their content (overview, genres, keywords, cast, etc.).
+1.Movie Recommendation System (Content-Based filtering)
+-->This is a content-based movie recommendation system built using the TMDB 5000 Movies Dataset.The goal of the project is to recommend movies similar to a selected movie based on their content (overview, genres, keywords, cast, etc.).
 
 
 
@@ -7,13 +7,13 @@ This is a content-based movie recommendation system built using the TMDB 5000 Mo
 This system recommends movies using text similarity.
 I used two techniques:
 
-a. Bag of Words (CountVectorizer)
+(a). Bag of Words (CountVectorizer)
 -First approach
 -Creates a word count matrix
 -Works but gives less accurate results
 -Sometimes recommends unrelated movies because it focuses only on word frequency
 
-b. TF-IDF Vectorizer
+(b).TF-IDF Vectorizer
 -Improved approach
 -Gives more meaningful similarity scores
 -Focuses on important words instead of common words
@@ -67,6 +67,8 @@ Clean preprocessing
 TMDB poster display
 Interactive Streamlit UI
 Accurate and visually appealing recommendations
+
+
 
 8.Future Improvements
 -Add movie embeddings for more accurate similarity
